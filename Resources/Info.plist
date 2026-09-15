@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleExecutable</key><string>XM6Companion</string>
+<key>CFBundleIdentifier</key><string>local.xm6companion.mac</string>
+<key>CFBundleName</key><string>XM6 Studio</string>
+<key>CFBundleDisplayName</key><string>XM6 Studio</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>1.0.1</string>
+<key>CFBundleVersion</key><string>4</string>
+<key>CFBundleIconFile</key><string>AppIcon</string>
+<key>LSMinimumSystemVersion</key><string>15.0</string>
+<key>LSApplicationCategoryType</key><string>public.app-category.utilities</string>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSBluetoothAlwaysUsageDescription</key><string>XM6 Studio uses Bluetooth to read and change settings on your Sony WH-1000XM6 headphones and switch playback between your connected devices.</string>
+<key>NSBluetoothPeripheralUsageDescription</key><string>Connect to the Sony WH-1000XM6 settings service.</string>
+</dict></plist>

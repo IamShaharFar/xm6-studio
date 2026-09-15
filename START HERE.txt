@@ -1,0 +1,117 @@
+XM6 STUDIO 1.0.1 — START HERE
+Native Mac controls for Sony WH-1000XM6 headphones
+
+REQUIREMENTS
+
+• Apple Silicon Mac: M1, M2, M3, M4, or later Apple Silicon.
+• macOS 15 (Sequoia) or later.
+• Sony WH-1000XM6 headphones, paired with the Mac.
+• For Mac/iPhone switching: enable two-device connection in Sony Sound Connect.
+
+This ZIP does not support Intel Macs or older macOS versions. No paid account,
+developer tools, Terminal commands, or separate runtime installation is needed.
+Bluetooth permission is required. Compatibility on additional Macs has not yet
+been physically tested.
+
+UPGRADING FROM XM6 COMPANION
+
+Quit XM6 Companion before opening XM6 Studio. Keep only one version running;
+the new name uses the same preferences and headphone assignments. Replace the
+old app with XM6 Studio in Applications. Refresh its Bluetooth permission if
+macOS requests it. This update changes the name and artwork only.
+
+1. INSTALL AND OPEN
+
+1) Double-click the ZIP to extract the “XM6 Studio” folder.
+2) Drag “XM6 Studio.app” into your Applications folder.
+3) Open the app from Applications.
+
+This is an independent, locally signed build. It is not signed with an Apple
+Developer ID or notarized by Apple, so another Mac may block its first launch.
+If you trust the sender and want to open it:
+
+• Try opening the app once, then dismiss the unidentified-developer warning.
+• Open System Settings → Privacy & Security.
+• Find the message about XM6 Studio and click “Open Anyway”, if available.
+• Follow the Mac's confirmation prompt, then open the app again if needed.
+
+This creates an exception for this app. Do not disable Gatekeeper globally.
+If macOS says the app contains malware, is damaged, or your organization blocks
+it, stop and obtain a verified replacement or contact your Mac administrator.
+
+Apple's instructions:
+https://support.apple.com/en-gb/102445
+
+2. CONNECT YOUR HEADPHONES
+
+1) Open System Settings → Bluetooth. Pair and connect WH-1000XM6.
+2) Allow XM6 Studio to use Bluetooth when macOS asks.
+3) In XM6 Studio, click “Refresh controls”. Select WH-1000XM6 if needed.
+4) Wait for “Controls ready”, battery level and firmware to appear.
+
+If the headphone list is empty while Mac audio already works:
+
+• Open System Settings → Privacy & Security → Bluetooth.
+• Turn XM6 Studio off and back on, then choose “Quit & Reopen”.
+• Click “Refresh controls” again. This may be needed after replacing a build.
+
+If controls still cannot open, close Sony Sound Connect on the phone and retry.
+There is no need to unpair the headphones just to refresh app permissions.
+
+3. SWITCH BETWEEN MAC AND IPHONE
+
+1) On iPhone, open Sony Sound Connect and enable
+   “Connect to 2 devices simultaneously”.
+2) Connect both the Mac and iPhone to your headphones.
+3) Close Sony's app if it prevents the Mac control connection from opening.
+4) Click “Refresh controls” in XM6 Studio.
+5) Under Overview → Device identities, choose this Mac and your iPhone if the
+   app has not recognized them automatically. Choose two different devices.
+6) Click “Listen on Mac” or “Listen on iPhone”.
+7) Start playback in the chosen device's media app if its music is paused.
+
+“Listen on Mac” also selects the headphones as the Mac's sound output.
+A confirmed result means the headphones reported the requested source.
+Both devices stay connected for calls. Notifications or phone calls may still
+interrupt Mac playback; the app does not continuously force playback back.
+
+4. EVERYDAY CONTROLS
+
+• Sound: noise cancellation, ambient sound, voice focus, EQ presets,
+  Background Music, Cinema and DSEE Extreme.
+• Headphones: Speak-to-Chat, wearing detection and automatic power-off.
+• The headphones icon beside the Mac clock opens quick controls.
+• Controls release after 30 seconds without an action. Click “Refresh controls”
+  to read the latest settings and edit again. Cached values are labeled.
+• Before using Sony's iPhone app, choose “Release controls for Sony app”.
+  Return to the Mac app and refresh when finished.
+• Closing the window keeps the menu-bar app running. Press Command-Q to quit.
+• Optional “Launch at login” is in App settings and is off by default.
+• Shortcuts: Command-R refresh; Shift-Command-R release controls.
+
+Firmware updates, custom EQ editing and phone automation remain in Sony's app.
+See “Feature Coverage.md” for the complete settings list.
+
+5. TEST STATUS AND PRIVACY
+
+Checked on one Apple Silicon Mac running macOS 15.7.5 with WH-1000XM6 firmware
+3.1.5. Twenty-one automated tests passed. Ten Mac/iPhone switches and several
+settings changes were confirmed by the headphones. This does not guarantee
+uninterrupted playback on every Mac or firmware version. Incoming-call,
+notification, sleep/wake and Sony-app coexistence checks remain pending.
+See “Verification.md” for the detailed results.
+
+The app works locally without an account, analytics or online services.
+Bluetooth device choices are saved separately on each Mac. Diagnostic reports
+are exported only when requested and redact names and Bluetooth addresses.
+No personal settings or diagnostic exports are included in this sharing ZIP.
+
+Source and build scripts: “XM6 Studio Source.zip”.
+Product image: Sony’s official WH-1000XM6 photograph; credits are included.
+Third-party licenses: App settings → About → View licenses; also in the source.
+XM6 Studio is independent software and is not affiliated with Sony.
+
+TO SHARE
+
+Send the complete “XM6 Studio 1.0.1 - Apple Silicon.zip” file so recipients
+receive the app, this guide, feature coverage, verification report and source.
