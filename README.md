@@ -18,17 +18,32 @@ A native macOS app with a settings window and menu bar controls. Works locally, 
 4. Click **Refresh controls** and wait for **Controls ready**.
 5. For Mac/iPhone switching, enable **Connect to 2 devices simultaneously** in Sony Sound Connect on your iPhone and connect both devices.
 
-This build is locally signed, without Apple Developer ID signing or notarization. macOS may block its first launch. If you trust this download, follow the **Open Anyway** steps in the [installation guide](START%20HERE.txt). Do not disable macOS security globally.
+### First launch: “XM6 Studio” Not Opened
+
+This version is locally signed, without Apple Developer ID signing or notarization. macOS can therefore show a warning that Apple could not verify the app.
+
+If you trust this download:
+
+1. Click **Done** to dismiss the warning.
+2. Move the app to **Applications**, then try opening it there once.
+3. Open **System Settings → Privacy & Security**, scroll to **Security**, and click **Open Anyway** for XM6 Studio.
+4. Confirm **Open** and authenticate with your Mac if requested.
+
+This creates an exception for this app. Do not disable Gatekeeper globally. Managed Macs may restrict this option. See [Apple's instructions](https://support.apple.com/en-gb/102445) and the [full installation guide](START%20HERE.txt).
 
 [Full installation and troubleshooting guide](START%20HERE.txt) · [Download details and SHA-256 checksum](downloads/README.md)
 
 ## The app
 
+![XM6 Studio Overview: headphones, battery, connection status and Mac/iPhone source controls](docs/images/overview-clean.png)
+
+The Overview image was edited from an actual screenshot for presentation, removing personal device names and desktop elements. It retains the displayed cached-state labels and disabled controls.
+
 ![XM6 Studio Sound screen showing noise control, the reported equalizer curve, listening modes and DSEE Extreme](docs/images/sound.jpg)
 
 ![XM6 Studio Headphones screen showing Speak-to-Chat, wearing detection and automatic power-off](docs/images/headphones.jpg)
 
-These are screenshots of the running app with real reported headphone settings.
+The Sound and Headphones images are unedited screenshots of the running app with reported headphone settings. A [Hebrew social cover](docs/images/social-cover-he.png) is also available; see [image notes](docs/images/README.md).
 
 ## What you can do
 
